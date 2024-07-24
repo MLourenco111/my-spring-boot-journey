@@ -10,4 +10,11 @@ public class BasicRestController {
     public String helloWorld(){
         return "Hello World";
     }
+
+    @GetMapping("/devtools")
+    public String devtools(){
+        return "devtools está atualizando automaticamente";
+    }
+
+
 }
